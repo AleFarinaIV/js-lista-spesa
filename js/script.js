@@ -6,4 +6,5 @@ let count = 0
 
 while (count < ingredients.length) {
     let item = document.createElement('li')
+    item.innerText = ingredients[count]
 }
